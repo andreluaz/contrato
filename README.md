@@ -1,5 +1,5 @@
-# getandpost
-Consumir uma API Json-Server usando GET and POST
+# Contrato
+Consumir uma API Json-Server usando GET e usando um esquema para validar teste de contrato
 
 ## Pré-requisito
 
@@ -13,7 +13,7 @@ https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
 
 Após a instalação do git digite:
 ```
-git clone https://github.com/andreluaz/getandpost.git
+git clone https://github.com/andreluaz/contrato.git
 ```
 ## Iniciando o json-server
 
@@ -36,5 +36,5 @@ Isto fará a instalação das dependências necessárias para a execução dos t
 Para usar, não esquecer de iniciar o json-server e então digite.
 
 ```
-mocha getposturl.js
+mocha contrato.js
 ```
