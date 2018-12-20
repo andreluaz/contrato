@@ -3,40 +3,62 @@ Consumir uma API Json-Server, efetuando um GET na API e usando o Mocha com Joi-A
 
 ## Pré-requisito
 
-É necessário a instalação do Json-Server, sua instalação poderá ser seguida neste link abaixo:
-https://github.com/danilopolicarpos/Httparty
+É necessário a instalação do node e npm, para instalar digite em seu terminal:
+
+```
+brew install node
+```
+
+É necessário também a instalação do Json-Server:
+
+```
+npm install -g json-server
+```
 
 ## Clonando o repositório
 
-Para fazer uma cópia "clone" do repositório é necessário a instalação do git para isto basta seguir os passos deste link:
-https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
+Clone o Repositório:
 
-Após a instalação do git digite:
 ```
 git clone https://github.com/andreluaz/contrato.git
-```
-## Iniciando o json-server
-
-Após a cópia "clonagem" do repositório e a instalação do Json-Server digite:
-```
-json-server --watch info.json
 ```
 
 ## Instalação das dependências:
 
-Após a cópia "clonagem" do repositório digite:
+Após a clonagem do repositório digite:
+
 ```
 npm install
 ```
 
 Isto fará a instalação das dependências necessárias para a execução dos testes.
 
-## Uso:
+## Iniciando o json-server
 
-Para executar, não esquecer de iniciar o json-server e então digite:
+Iniciar o Json-Server:
+
+```
+json-server --watch info.json
+```
+
+## Execução dos Testes
+
+Para executar os testes, abra uma nova aba no terminal e digite:
 
 ```
 mocha contrato.js
+```
+
+## Arquitetura do Projeto
+
+```
+├── README.md
+├── getposturl.js         - Testes de GET e POST
+├── info.json             - Arquivo usado pelo Json-server
+├── info.txt              - Leitura dos dados para ser enviado via requisição POST
+├── node_modules          - Dependências instaladas
+├── package-lock.json     - Versões das dependências instaladas
+└── package.json          - Dependências usada no projeto
 ```
 
 ## Referências:
