@@ -1,5 +1,5 @@
 # Contrato
-Consumir uma API Json-Server, efetuando um GET na API e usando o Mocha com Joi-Assert para efetuar a validação de contrato.
+Consumir uma API Json-Server, efetuando um GET na API e usando o Mocha com Joi-Assert e Joi-Validate para efetuar a validação de contrato.
 
 ## Pré-requisito
 
