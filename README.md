@@ -62,7 +62,7 @@ mocha contrato.js
     └── info.js
 ```
 
-## Referências:
+## Referências
 
 Link para maiores informações sobre o joi-assert: https://www.npmjs.com/package/joi-assert
 
