@@ -53,7 +53,7 @@ mocha contrato.js
 
 ```
 ├── README.md
-├── getposturl.js         - Testes de GET e POST
+├── contrato.js           - Testes de GET e POST
 ├── info.json             - Arquivo usado pelo Json-server
 ├── info.txt              - Leitura dos dados para ser enviado via requisição POST
 ├── node_modules          - Dependências instaladas
