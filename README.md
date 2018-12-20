@@ -1,5 +1,5 @@
 # Contrato
-Consumir uma API Json-Server usando GET e usando um esquema para validar teste de contrato
+Consumir uma API Json-Server, efetuando um GET na API e usando o Mocha com Joi-Assert para efetuar a validação de contrato.
 
 ## Pré-requisito
 
@@ -38,3 +38,8 @@ Para executar, não esquecer de iniciar o json-server e então digite:
 ```
 mocha contrato.js
 ```
+
+## Referências:
+
+Link para maiores informações sobre o joi-assert: https://www.npmjs.com/package/joi-assert
+
