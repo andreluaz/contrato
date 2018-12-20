@@ -55,10 +55,11 @@ mocha contrato.js
 ├── README.md
 ├── contrato.js           - Testes de GET e POST
 ├── info.json             - Arquivo usado pelo Json-server
-├── info.txt              - Leitura dos dados para ser enviado via requisição POST
 ├── node_modules          - Dependências instaladas
 ├── package-lock.json     - Versões das dependências instaladas
 └── package.json          - Dependências usada no projeto
+└── schema                - Schemas usados para os testes de contrato
+    └── info.js
 ```
 
 ## Referências:
